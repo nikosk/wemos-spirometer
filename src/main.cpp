@@ -1,4 +1,5 @@
 /*
+
 Analog input, analog output
 Reads an analog input pin, uses voltage to calculate pressure,
 pressure is converted to velocity using v=k*sqrt(P), velocity
@@ -6,6 +7,9 @@ is converted to flow rate, flow rate is integrated over time to
 determine total volume passed through the spirometer.
 Total time is recorded by pressing appropriate buttons on the device.
 Results are printed to an LCD screen.
+
+Code adapted from: http://www.instructables.com/id/Low-Cost-Spirometer/
+
 */
 // include the library code
 #include "Arduino.h"
